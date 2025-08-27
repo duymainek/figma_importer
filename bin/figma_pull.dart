@@ -2,7 +2,7 @@
 
 import 'dart:io';
 import 'package:args/args.dart';
-import 'package:figma_importer/figma_importer.dart';
+import 'package:figma_puller/figma_puller.dart';
 
 Future<void> main(List<String> arguments) async {
   final parser = ArgParser()

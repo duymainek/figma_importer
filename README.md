@@ -19,7 +19,7 @@ Add this package to your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  figma_importer: ^1.0.0
+  figma_puller: ^1.0.0
 ```
 
 Then run:
@@ -313,7 +313,7 @@ AppIconWidgets.home(
 You can also use the package programmatically:
 
 ```dart
-import 'package:figma_importer/figma_importer.dart';
+import 'package:figma_puller/figma_puller.dart';
 
 void main() async {
   final apiClient = FigmaApiClient(apiToken: 'your_token');

@@ -1,7 +1,7 @@
 # Figma Importer - Project Summary
 
 ## 🎯 Mục tiêu dự án
-Tạo một Dart package có tên `figma_importer` để tự động import design tokens và assets từ Figma files, giúp đồng bộ hóa thiết kế giữa Figma và Flutter apps.
+Tạo một Dart package có tên `figma_puller` để tự động import design tokens và assets từ Figma files, giúp đồng bộ hóa thiết kế giữa Figma và Flutter apps.
 
 ## ✅ Tính năng đã hoàn thành
 
@@ -52,9 +52,9 @@ Tạo một Dart package có tên `figma_importer` để tự động import des
 ## 📁 Cấu trúc files
 
 ```
-figma_importer/
+figma_puller/
 ├── lib/
-│   ├── figma_importer.dart              # Main export file
+│   ├── figma_puller.dart                # Main export file
 │   └── src/
 │       ├── figma_api_client.dart        # Figma API client
 │       ├── models/
@@ -96,7 +96,7 @@ figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN \
 
 ### Programmatic Usage
 ```dart
-import 'package:figma_importer/figma_importer.dart';
+import 'package:figma_puller/figma_puller.dart';
 
 final apiClient = FigmaApiClient(apiToken: 'your_token');
 final figmaFile = await apiClient.getFile('your_file_key');
@@ -175,7 +175,7 @@ class AppIconWidgets {
 - ✅ Optional theme extensions và widget helpers
 
 ## 🎉 Kết quả
-Dự án `figma_importer` đã hoàn thành với đầy đủ tính năng theo yêu cầu:
+Dự án `figma_puller` đã hoàn thành với đầy đủ tính năng theo yêu cầu:
 
 1. ✅ **CLI Tool**: `figma_pull` command với nhiều options
 2. ✅ **Color Import**: Tự động extract và generate Flutter colors

@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:figma_importer/figma_importer.dart';
+import 'package:figma_puller/figma_puller.dart';
 
 void main() {
   group('StringUtils', () {
