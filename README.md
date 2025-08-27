@@ -1,4 +1,4 @@
-![Figma Puller Banner](banner/Gemini_Generated_Image_23oo8j23oo8j23oo.png)
+![Figma Puller Banner](https://github.com/duymainek/figma_importer/blob/main/banner/Gemini_Generated_Image_23oo8j23oo8j23oo.png?raw=true)
 
 # Figma Puller
 
@@ -21,7 +21,7 @@ Add this package to your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  figma_puller: ^1.0.0
+  figma_puller: ^1.0.1
 ```
 
 Then run:

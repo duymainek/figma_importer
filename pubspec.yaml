@@ -1,6 +1,6 @@
 name: figma_puller
 description: A Dart package to import design tokens and assets from Figma files
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/duymainek/figma_importer
 topics:
   - figma

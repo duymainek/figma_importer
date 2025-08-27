@@ -70,7 +70,7 @@ figma_puller/
 ├── bin/
 │   └── figma_pull.dart                  # CLI entry point
 ├── test/
-│   └── figma_importer_test.dart         # Test suite
+│   └── figma_pull_test.dart         # Test suite
 ├── example/
 │   └── example.dart                     # Usage examples
 ├── pubspec.yaml                         # Package configuration

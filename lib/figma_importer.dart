@@ -1,6 +1,6 @@
 /// A Dart package to import design tokens and assets from Figma files
 @Deprecated('Use library figma_puller instead')
-library figma_importer;
+library figma_puller;
 
 export 'src/figma_api_client.dart';
 export 'src/models/figma_response.dart';
