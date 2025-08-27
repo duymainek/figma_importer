@@ -1,0 +1,23 @@
+# Files to exclude from pub package
+
+# Example and test directories
+example/
+test/design/
+
+# Downloaded assets (these are just examples)
+assets/icons/
+assets/images/
+
+# Demo scripts
+*.sh
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Generated test files
+example/smart_test/
+example/smart_assets/
