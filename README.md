@@ -1,4 +1,6 @@
-# Figma Importer
+![Figma Puller Banner](banner/Gemini_Generated_Image_23oo8j23oo8j23oo.png)
+
+# Figma Puller
 
 A Dart package to import design tokens and assets from Figma files. This package allows you to automatically extract colors, icons, and other design elements from your Figma designs and generate Dart code for use in your Flutter applications.
 
