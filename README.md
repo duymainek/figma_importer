@@ -53,25 +53,25 @@ The package provides a `figma_pull` command:
 
 ```bash
 # Basic usage
-figma_pull --file-key YOUR_FILE_KEY --token YOUR_API_TOKEN
+dart run figma_puller:figma_pull --file-key YOUR_FILE_KEY --token YOUR_API_TOKEN
 
 # Custom output directories
-figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN -o lib/design -a assets/images
+dart run figma_puller:figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN -o lib/design -a assets/images
 
 # Only extract colors
-figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --colors-only
+dart run figma_puller:figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --colors-only
 
 # Generate categorized files with theme extension
-figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --categorized --theme-extension
+dart run figma_puller:figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --categorized --theme-extension
 
 # Extract icons with widget helpers
-figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --icon-widgets --icon-format svg
+dart run figma_puller:figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --icon-widgets --icon-format svg
 
 # Clean directories before generating (force re-download)
-figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --clean
+dart run figma_puller:figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN --clean
 
 # Smart update mode (default - skip unchanged files)
-figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN
+dart run figma_puller:figma_pull -k YOUR_FILE_KEY -t YOUR_TOKEN
 ```
 
 ### Command Options
